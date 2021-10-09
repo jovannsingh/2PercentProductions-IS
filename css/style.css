@@ -1,0 +1,163 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Righteous&display=swap');
+*{
+    padding: 0;   
+    margin:0;
+}
+
+/*body en footer code voor alle pagina's*/
+
+body {
+    font-family: 'Righteous', cursive;
+    font-size: 1em;
+    font-weight: 500;
+    color: white;
+    cursor: url(cursor/Normal\ Select.cur),auto;
+    background-color: black;
+}
+
+footer p{
+    font-size: 1em;
+    color: black;
+    text-align: center;
+}
+
+footer { 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff778;
+}
+
+/*Logo*/
+
+header img{
+    float: right;
+    width: 12%;
+}
+
+/* Code voor nav bar */
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 10%;
+}
+
+nav a{
+    color: white;
+    transition: all 350ms ease;
+    border: 0.1em solid #fff;
+    transition: 0.6s ease;
+}
+
+/* Bron van hover code op nav bar https://www.youtube.com/watch?v=ex7jGbyFgpA */
+
+nav a:hover{
+    color: #fff778;
+    border-style: groove;
+    box-shadow: 0 0 10px #fff778, 0 0 40px #fff778, 0 0 80px #fff778;
+    transition-delay: 0.01s;
+}
+
+/* Code voor instellingen van logo */
+
+header{
+    display: flex;
+    align-items: center;
+}
+header nav{
+    width: 100%;
+}
+header img{
+    width: 10%;
+    align-items: left;
+}
+
+main{
+    font-size: 2em;
+    
+}
+
+/* code voor alle h2 headings */
+
+h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+
+}
+
+/* code voor Check Our Services button op home pagina */
+
+.btn{
+    display: flex;
+    margin: auto;
+    max-width: 30%;
+    justify-content: center;
+    align-items: center;
+    color: #fff778;
+    transition: all 350ms ease;
+    border: 0.1em solid #fff;
+    transition: 0.6s ease;
+}
+
+/* Bron van hover code op check our services button op home pagina https://www.youtube.com/watch?v=ex7jGbyFgpA */
+
+.btn:hover{
+    color: #fff778;
+    border-style: groove;
+    box-shadow: 0 0 10px #fff778, 0 0 40px #fff778, 0 0 80px #fff778;
+    transition-delay: 0.01s;
+}
+
+/* Code voor alle articles (Kopjes) */
+
+article p{
+    font-size: 0.9em;
+    text-align: center;
+}
+
+/* Code voor alle h1 headings (tekst) */
+
+h1{
+    text-align: center;
+    font-size: 1.5em;
+    color: #fff778;
+}
+
+/* Code voor buttons op service pagina */
+
+.serbtn{
+    display: flex;
+    margin: auto;
+    max-width: 30%;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    text-align: center;
+    height: 30px;
+    border: none;
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 white;
+    transition: ease-out 0.3s;
+    font-size: 0.6em;
+    outline: none;
+}
+
+/* Code voor hover animatie van buttons op service pagina */
+
+.serbtn:hover{
+    box-shadow: inset 150px 0 0 0 #fff778;
+}
